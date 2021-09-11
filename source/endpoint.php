@@ -23,11 +23,15 @@ Api
 
 <p>
 <strong>* means required</strong>
-<samp>json</samp>
-Return with a JSON request of if the server was blacklisted
-
-<samp>server *</samp>
+<details>
+<summary>json</summary>
+Checks if the server is blacklisted and sends a JSON request back.
+</details>
+<br/>
+<details>
+<summary>server *</summary>
 Checks if the server is blacklisted and sends a request back.
+</details>
 </p>
 ';
 ?>
